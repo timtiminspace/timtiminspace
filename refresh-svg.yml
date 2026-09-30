@@ -1,0 +1,23 @@
+name: Refresh profile terminal
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 12 * * MON"
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: williamzujkowski/svg-terminal@v1
+        with:
+          config: terminal.yml
+          output: terminal.svg
+          commit: true
+          commit-message: "chore(readme): refresh terminal svg"

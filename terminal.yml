@@ -1,0 +1,73 @@
+# Animated hero for README_SELF_HOSTED.md
+# Generated with: https://github.com/williamzujkowski/svg-terminal
+#
+# Local:
+#   npx svg-terminal generate --config terminal.yml --output terminal.svg
+#
+# Requires Node 22+ for the current svg-terminal CLI.
+
+theme: oxocarbon
+
+window:
+  title: "timothee@github: ~"
+  width: 1000
+  autoHeight: true
+  minHeight: 390
+  maxHeight: 560
+  style: minimal
+  borderRadius: 10
+
+terminal:
+  prompt: "timothee@dev:~$ "
+  fontFamily: "JetBrains Mono, ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+  fontSize: 16
+  lineHeight: 1.5
+  padding: 28
+
+effects:
+  textGlow: false
+  scanlines: false
+  vignette: false
+  shadow: true
+
+animation:
+  loop: true
+  defaultTypingDuration: 900
+  outputLineStagger: 110
+  commandOutputPause: 500
+  outputEndPause: 900
+  defaultSequencePause: 650
+
+accessibility:
+  describe: true
+
+accessibilityLabel: "Animated terminal introduction for Timothée, Computer Science student at the University of Surrey"
+
+maxDuration: 30
+
+blocks:
+  - block: neofetch
+    config:
+      username: timothee
+      hostname: surrey
+      role: Computer Science / Software Engineering
+      languages: Go, Python, Java, C++, TypeScript
+
+  - block: custom
+    config:
+      command: cat interests.txt
+      lines:
+        - "[[fg:cyan]]software engineering[[/fg]] / systems / security / applied AI"
+
+  - block: custom
+    config:
+      command: cat current.txt
+      lines:
+        - "building: fitness + nutrition SaaS"
+        - "shipping: practical projects I can explain end-to-end"
+
+  - block: custom
+    config:
+      command: ls projects/
+      lines:
+        - "my-teditor/    smart-campus/    cuda-parallel/    fitness-saas/"

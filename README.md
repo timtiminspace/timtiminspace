@@ -1,56 +1,134 @@
+<!--
+  VERSION 2 — SELF-HOSTED ANIMATED TERMINAL
+  Recommended version.
+
+  This README expects a generated file named:
+      terminal.svg
+
+  Supporting files are included in this package:
+      terminal.yml
+      .github/workflows/refresh-svg.yml
+
+  Replace:
+      YOUR_GITHUB_USERNAME
+      YOUR_LINKEDIN_URL
+      YOUR_EMAIL
+      YOUR_CV_URL
+-->
+
 <div align="center">
 
-<img src="YOUR_HEADER.svg" width="100%">
+<img src="./terminal.svg" width="100%" alt="Animated terminal introduction" />
 
-# Timothée [Surname]
+<br>
 
-### Computer Science @ University of Surrey
-
-<img
-  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=2500&pause=800&center=true&vCenter=true&width=600&lines=Software+Engineering;Systems+%26+Security;AI+%26+Machine+Learning;Building+things+I+actually+use"
-/>
+`software engineering` · `systems` · `security` · `applied AI`
 
 </div>
 
 ---
 
-## `01 / about`
+## `projects --selected`
 
-Third-year Computer Science student at the University of Surrey.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-Currently interested in **software engineering, systems, cybersecurity and applied AI**.
+### `my-teditor`
+
+**Terminal text editor written in Go.**
+
+Multi-line rune buffer, cursor movement, scrolling, file I/O, search, status information and terminal resize handling.
+
+`Go` `termbox-go` `systems`
+
+</td>
+<td width="50%" valign="top">
+
+### `smart-campus`
+
+**Energy anomaly monitoring dashboard.**
+
+Worked on backend validation, automated testing and QA across a Go / React / FastAPI / SQLite architecture.
+
+`Go` `React` `FastAPI` `testing`
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### `cuda-parallel`
+
+**GPU reductions + histogram kernels.**
+
+Parallel min/max reductions, shared-memory histogram and performance profiling.
+
+`CUDA` `C++` `profiling`
+
+</td>
+<td width="50%" valign="top">
+
+### `fitness-saas` · `WIP`
+
+**Low-friction nutrition + training product.**
+
+Food selection, portion estimation, nutrition data and goal-driven recommendations.
+
+`full-stack` `APIs` `product`
+
+</td>
+</tr>
+</table>
 
 ---
 
-## `02 / selected work`
-
-### 📝 my-teditor
-A terminal text editor written in Go.
-
-`Go` `termbox` `systems programming`
-
-### 📊 [Project]
-Short description here.
-
-`Python` `React` `FastAPI`
-
----
-
-## `03 / stack`
+## `stack --compact`
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=go,py,java,cpp,ts,react,django,git,docker,linux&theme=dark&perline=10" />
+<img src="https://skillicons.dev/icons?i=go,py,java,cpp,js,ts,react,django,fastapi,sqlite,git,docker,linux&theme=dark&perline=13" alt="Tech stack" />
 
 </div>
 
+```txt
+languages  Go · Python · Java · C++ · JavaScript · TypeScript
+backend    Go · Django · FastAPI · REST · WebSockets
+frontend   React · HTML · CSS
+data       SQLite · pandas · NumPy
+systems    Linux · CUDA · Git · Docker
+```
+
 ---
 
-## `04 / currently`
+## `status`
 
-```text
-degree       Computer Science
-university   University of Surrey
-building     [...]
-learning     [...]
-interests    systems / SWE / security / AI
+```diff
++ BSc Computer Science @ University of Surrey
++ building practical software and full-stack products
++ interested in SWE / systems / cybersecurity / applied AI
++ music producer + video editor outside code
+```
+
+---
+
+<div align="center">
+
+<a href="YOUR_LINKEDIN_URL">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+&nbsp;
+<a href="mailto:YOUR_EMAIL">
+  <img src="https://img.shields.io/badge/Email-111827?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+</a>
+&nbsp;
+<a href="YOUR_CV_URL">
+  <img src="https://img.shields.io/badge/CV-111827?style=flat-square&logo=readthedocs&logoColor=white" alt="CV" />
+</a>
+
+<br><br>
+
+<sub>minimal by design · the terminal animation is generated into this repository</sub>
+
+</div>
