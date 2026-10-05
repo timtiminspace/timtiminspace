@@ -1,0 +1,78 @@
+<svg width="1000" height="550" viewBox="0 0 1000 550" xmlns="http://www.w3.org/2000/svg"
+  role="img" aria-label="Animated terminal introduction for Timothée, a Computer Science student at the University of Surrey">
+  <title>Animated terminal introduction for Timothée, a Computer Science student at the University of Surrey</title>
+  <desc>timothee@dev:~$ neofetch --ascii_distro github
+timothee@github
+OS:        TerminalOS v1.0
+Shell:     bash 5.2
+Uptime:    a long time
+Role:      Computer Science / Software Engineering
+Location:  localhost
+Languages: Go, Python, Java, C++, TypeScript
+Editor:    neovim
+
+● ● ● ● ● ● ● ●
+timothee@dev:~$ cat interests.txt
+software engineering / systems / security / applied AI
+timothee@dev:~$ ls projects/
+golang-text-editor/
+smart-campus-energy-anomaly-dashboard/
+trading-bot/
+timothee@dev:~$ printf &apos;status: %s\n&apos; learning
+building practical software, one iteration at a time</desc>
+  <style>.tt { font-family: JetBrains Mono, ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 16px; white-space: pre; }</style>
+  <defs>
+    
+    
+    <filter id="shadow" x="-8%" y="-8%" width="116%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="8"/>
+      <feOffset dx="0" dy="6" result="offsetblur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.55"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="terminalViewport">
+      <rect x="0" y="0" width="1000" height="550"/>
+    </clipPath>
+  </defs>
+
+  <g filter="url(#shadow)">
+    
+    <rect x="0" y="0" width="1000" height="550"
+          rx="10" ry="10"
+          fill="#161616"/>
+    
+    <rect x="0" y="0" width="1000"
+          height="550" fill="#161616"/>
+    <g clip-path="url(#terminalViewport)">
+      <g transform="translate(28, 14)">
+        
+      <text class="tt" y="0" fill="#f2f4f8">timothee@dev:~$ neofetch --ascii_distro github</text>
+      <text class="tt" y="24"><tspan fill="#ff74b8">timothee@github</tspan></text>
+      <text class="tt" y="48"><tspan fill="#ff74b8">───────────────</tspan></text>
+      <text class="tt" y="72"><tspan fill="#ff74b8">OS</tspan><tspan fill="#f2f4f8">:        TerminalOS v1.0</tspan></text>
+      <text class="tt" y="96"><tspan fill="#ff74b8">Shell</tspan><tspan fill="#f2f4f8">:     bash 5.2</tspan></text>
+      <text class="tt" y="120"><tspan fill="#ff74b8">Uptime</tspan><tspan fill="#f2f4f8">:    a long time</tspan></text>
+      <text class="tt" y="144"><tspan fill="#ff74b8">Role</tspan><tspan fill="#f2f4f8">:      Computer Science / Software Engineering</tspan></text>
+      <text class="tt" y="168"><tspan fill="#ff74b8">Location</tspan><tspan fill="#f2f4f8">:  localhost</tspan></text>
+      <text class="tt" y="192"><tspan fill="#ff74b8">Languages</tspan><tspan fill="#f2f4f8">: Go, Python, Java, C++, TypeScript</tspan></text>
+      <text class="tt" y="216"><tspan fill="#ff74b8">Editor</tspan><tspan fill="#f2f4f8">:    neovim</tspan></text>
+      <text class="tt" y="240" fill="#f2f4f8"></text>
+      <text class="tt" y="264"><tspan fill="#00dfdb">●</tspan><tspan fill="#f2f4f8"> </tspan><tspan fill="#00b4ff">●</tspan><tspan fill="#f2f4f8"> </tspan><tspan fill="#ff4297">●</tspan><tspan fill="#f2f4f8"> </tspan><tspan fill="#00c15a">●</tspan><tspan fill="#f2f4f8"> </tspan><tspan fill="#c693ff">●</tspan><tspan fill="#f2f4f8"> </tspan><tspan fill="#ff74b8">●</tspan><tspan fill="#f2f4f8"> </tspan><tspan fill="#f2f4f8">●</tspan><tspan fill="#f2f4f8"> </tspan><tspan fill="#8090b9">●</tspan></text>
+      <text class="tt" y="288" fill="#f2f4f8">timothee@dev:~$ cat interests.txt</text>
+      <text class="tt" y="312"><tspan fill="#ff74b8">software engineering</tspan><tspan fill="#f2f4f8"> / systems / security / applied AI</tspan></text>
+      <text class="tt" y="336" fill="#f2f4f8">timothee@dev:~$ ls projects/</text>
+      <text class="tt" y="360" fill="#f2f4f8">golang-text-editor/</text>
+      <text class="tt" y="384" fill="#f2f4f8">smart-campus-energy-anomaly-dashboard/</text>
+      <text class="tt" y="408" fill="#f2f4f8">trading-bot/</text>
+      <text class="tt" y="432" fill="#f2f4f8">timothee@dev:~$ printf &apos;status: %s\n&apos; learning</text>
+      <text class="tt" y="456" fill="#f2f4f8">building practical software, one iteration at a time</text>
+      </g>
+    </g>
+    
+    
+  </g>
+</svg>

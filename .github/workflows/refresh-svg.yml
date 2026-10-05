@@ -1,0 +1,40 @@
+name: Refresh profile terminal
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 12 * * MON"
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate animated terminal
+        uses: williamzujkowski/svg-terminal@v1
+        with:
+          config: terminal.yml
+          output: terminal.svg
+
+      - name: Generate reduced-motion terminal
+        uses: williamzujkowski/svg-terminal@v1
+        with:
+          config: terminal.yml
+          output: terminal-static.svg
+          static: true
+
+      - name: Commit generated files
+        shell: bash
+        run: |
+          if git diff --quiet -- terminal.svg terminal-static.svg; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add terminal.svg terminal-static.svg
+          git commit -m "chore(readme): refresh terminal SVGs"
+          git push

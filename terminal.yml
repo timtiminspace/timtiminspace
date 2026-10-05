@@ -1,10 +1,7 @@
-# Animated hero for README_SELF_HOSTED.md
-# Generated with: https://github.com/williamzujkowski/svg-terminal
-#
-# Local:
-#   npx svg-terminal generate --config terminal.yml --output terminal.svg
-#
-# Requires Node 22+ for the current svg-terminal CLI.
+# Source for terminal.svg and terminal-static.svg.
+# Generate locally with Node 22+:
+#   npx svg-terminal generate --config terminal.yml --output terminal.svg --strict
+#   npx svg-terminal generate --config terminal.yml --output terminal-static.svg --static --strict
 
 theme: oxocarbon
 
@@ -41,15 +38,14 @@ animation:
 accessibility:
   describe: true
 
-accessibilityLabel: "Animated terminal introduction for Timothée, Computer Science student at the University of Surrey"
-
+accessibilityLabel: "Animated terminal introduction for Timothée, a Computer Science student at the University of Surrey"
 maxDuration: 30
 
 blocks:
   - block: neofetch
     config:
       username: timothee
-      hostname: surrey
+      hostname: github
       role: Computer Science / Software Engineering
       languages: Go, Python, Java, C++, TypeScript
 
@@ -61,13 +57,14 @@ blocks:
 
   - block: custom
     config:
-      command: cat current.txt
+      command: ls projects/
       lines:
-        - "building: fitness + nutrition SaaS"
-        - "shipping: practical projects I can explain end-to-end"
+        - "golang-text-editor/"
+        - "smart-campus-energy-anomaly-dashboard/"
+        - "trading-bot/"
 
   - block: custom
     config:
-      command: ls projects/
+      command: "printf 'status: %s\\n' learning"
       lines:
-        - "my-teditor/    smart-campus/    cuda-parallel/    fitness-saas/"
+        - "building practical software, one iteration at a time"

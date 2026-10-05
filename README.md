@@ -1,28 +1,13 @@
-<!--
-  VERSION 2 — SELF-HOSTED ANIMATED TERMINAL
-  Recommended version.
-
-  This README expects a generated file named:
-      terminal.svg
-
-  Supporting files are included in this package:
-      terminal.yml
-      .github/workflows/refresh-svg.yml
-
-  Replace:
-      YOUR_GITHUB_USERNAME
-      YOUR_LINKEDIN_URL
-      YOUR_EMAIL
-      YOUR_CV_URL
--->
-
 <div align="center">
 
-<img src="./terminal.svg" width="100%" alt="Animated terminal introduction" />
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./terminal-static.svg">
+  <img src="./terminal.svg" width="100%" alt="Timothée's animated developer terminal introduction">
+</picture>
 
 <br>
 
-`software engineering` · `systems` · `security` · `applied AI`
+`software engineering` · `systems` · `data` · `applied AI`
 
 </div>
 
@@ -34,24 +19,24 @@
 <tr>
 <td width="50%" valign="top">
 
-### `my-teditor`
+### [`golang-text-editor`](https://github.com/timtiminspace/golang-text-editor)
 
-**Terminal text editor written in Go.**
+**A lightweight terminal text editor written in Go.**
 
-Multi-line rune buffer, cursor movement, scrolling, file I/O, search, status information and terminal resize handling.
+An exploration of terminal interfaces, text buffers, cursor movement, scrolling, search and file I/O.
 
 `Go` `termbox-go` `systems`
 
 </td>
 <td width="50%" valign="top">
 
-### `smart-campus`
+### [`smart-campus-energy-anomaly-dashboard`](https://github.com/timtiminspace/smart-campus-energy-anomaly-dashboard)
 
-**Energy anomaly monitoring dashboard.**
+**Smart-campus energy monitoring and anomaly detection.**
 
-Worked on backend validation, automated testing and QA across a Go / React / FastAPI / SQLite architecture.
+A dashboard for inspecting energy use and surfacing unusual consumption patterns.
 
-`Go` `React` `FastAPI` `testing`
+`TypeScript` `React` `FastAPI` `data`
 
 </td>
 </tr>
@@ -59,24 +44,24 @@ Worked on backend validation, automated testing and QA across a Go / React / Fas
 <tr>
 <td width="50%" valign="top">
 
-### `cuda-parallel`
+### [`trading-bot`](https://github.com/timtiminspace/trading-bot)
 
-**GPU reductions + histogram kernels.**
+**A quantitative trading research platform.**
 
-Parallel min/max reductions, shared-memory histogram and performance profiling.
+Research-oriented tooling for exploring strategies and working with market data.
 
-`CUDA` `C++` `profiling`
+`Python` `quant research` `data analysis`
 
 </td>
 <td width="50%" valign="top">
 
-### `fitness-saas` · `WIP`
+### `currently`
 
-**Low-friction nutrition + training product.**
+**Computer Science at the University of Surrey.**
 
-Food selection, portion estimation, nutrition data and goal-driven recommendations.
+Interested in building practical software across systems, full-stack engineering, security and applied AI.
 
-`full-stack` `APIs` `product`
+`learning` `building` `iterating`
 
 </td>
 </tr>
@@ -88,47 +73,28 @@ Food selection, portion estimation, nutrition data and goal-driven recommendatio
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=go,py,java,cpp,js,ts,react,django,fastapi,sqlite,git,docker,linux&theme=dark&perline=13" alt="Tech stack" />
+<img src="https://skillicons.dev/icons?i=go,py,java,cpp,js,ts,react,django,fastapi,sqlite,git,docker,linux&theme=dark&perline=13" alt="Go, Python, Java, C++, JavaScript, TypeScript, React, Django, FastAPI, SQLite, Git, Docker and Linux">
 
 </div>
 
-```txt
+```text
 languages  Go · Python · Java · C++ · JavaScript · TypeScript
-backend    Go · Django · FastAPI · REST · WebSockets
+backend    Go · Django · FastAPI · REST
 frontend   React · HTML · CSS
 data       SQLite · pandas · NumPy
-systems    Linux · CUDA · Git · Docker
-```
-
----
-
-## `status`
-
-```diff
-+ BSc Computer Science @ University of Surrey
-+ building practical software and full-stack products
-+ interested in SWE / systems / cybersecurity / applied AI
-+ music producer + video editor outside code
+tools      Linux · Git · Docker
 ```
 
 ---
 
 <div align="center">
 
-<a href="YOUR_LINKEDIN_URL">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
-&nbsp;
-<a href="mailto:YOUR_EMAIL">
-  <img src="https://img.shields.io/badge/Email-111827?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
-</a>
-&nbsp;
-<a href="YOUR_CV_URL">
-  <img src="https://img.shields.io/badge/CV-111827?style=flat-square&logo=readthedocs&logoColor=white" alt="CV" />
+<a href="https://github.com/timtiminspace?tab=repositories">
+  <img src="https://img.shields.io/badge/explore_my_work-111827?style=flat-square&logo=github&logoColor=white" alt="Explore my GitHub repositories">
 </a>
 
 <br><br>
 
-<sub>minimal by design · the terminal animation is generated into this repository</sub>
+<sub>minimal by design · animation generated from source in this repository</sub>
 
 </div>
