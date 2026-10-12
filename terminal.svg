@@ -95,47 +95,69 @@ building practical software, one iteration at a time</desc>
     </g>
 
     <g transform="translate(0, 24)" class="fade-in" style="animation-delay: 1700ms">
-      <text class="tt"><tspan fill="#ff74b8">timothee@github</tspan></text>
+      <text class="tt">
+        <tspan fill="#ff74b8">timothee@github</tspan>
+      </text>
     </g>
 
     <g transform="translate(0, 48)" class="fade-in" style="animation-delay: 1810ms">
-      <text class="tt"><tspan fill="#ff74b8">───────────────</tspan></text>
+      <text class="tt">
+        <tspan fill="#ff74b8">───────────────</tspan>
+      </text>
     </g>
 
     <g transform="translate(0, 72)" class="fade-in" style="animation-delay: 1920ms">
-      <text class="tt"><tspan fill="#ff74b8">OS</tspan><tspan fill="#f2f4f8">:        TerminalOS v1.0</tspan></text>
+      <text class="tt">
+        <tspan fill="#ff74b8">OS</tspan><tspan fill="#f2f4f8">:        TerminalOS v1.0</tspan>
+      </text>
     </g>
 
     <g transform="translate(0, 96)" class="fade-in" style="animation-delay: 2030ms">
-      <text class="tt"><tspan fill="#ff74b8">Shell</tspan><tspan fill="#f2f4f8">:     bash 5.2</tspan></text>
+      <text class="tt">
+        <tspan fill="#ff74b8">Shell</tspan><tspan fill="#f2f4f8">:     bash 5.2</tspan>
+      </text>
     </g>
 
     <g transform="translate(0, 120)" class="fade-in" style="animation-delay: 2140ms">
-      <text class="tt"><tspan fill="#ff74b8">Uptime</tspan><tspan fill="#f2f4f8">:    a long time</tspan></text>
+      <text class="tt">
+        <tspan fill="#ff74b8">Uptime</tspan><tspan fill="#f2f4f8">:    a long time</tspan>
+      </text>
     </g>
 
     <g transform="translate(0, 144)" class="fade-in" style="animation-delay: 2250ms">
-      <text class="tt"><tspan fill="#ff74b8">Role</tspan><tspan fill="#f2f4f8">:      Computer Science / Software Engineering</tspan></text>
+      <text class="tt">
+        <tspan fill="#ff74b8">Role</tspan><tspan fill="#f2f4f8">:      Computer Science / Software Engineering</tspan>
+      </text>
     </g>
 
     <g transform="translate(0, 168)" class="fade-in" style="animation-delay: 2360ms">
-      <text class="tt"><tspan fill="#ff74b8">Location</tspan><tspan fill="#f2f4f8">:  localhost</tspan></text>
+      <text class="tt">
+        <tspan fill="#ff74b8">Location</tspan><tspan fill="#f2f4f8">:  localhost</tspan>
+      </text>
     </g>
 
     <g transform="translate(0, 192)" class="fade-in" style="animation-delay: 2470ms">
-      <text class="tt"><tspan fill="#ff74b8">Languages</tspan><tspan fill="#f2f4f8">: Go, Python, Java, C++, TypeScript</tspan></text>
+      <text class="tt">
+        <tspan fill="#ff74b8">Languages</tspan><tspan fill="#f2f4f8">: Go, Python, Java, C++, TypeScript</tspan>
+      </text>
     </g>
 
     <g transform="translate(0, 216)" class="fade-in" style="animation-delay: 2580ms">
-      <text class="tt"><tspan fill="#ff74b8">Editor</tspan><tspan fill="#f2f4f8">:    neovim</tspan></text>
+      <text class="tt">
+        <tspan fill="#ff74b8">Editor</tspan><tspan fill="#f2f4f8">:    neovim</tspan>
+      </text>
     </g>
 
     <g transform="translate(0, 240)" class="fade-in" style="animation-delay: 2690ms">
-      <text class="tt" fill="#f2f4f8"></text>
+      <text class="tt" fill="#f2f4f8">
+        
+      </text>
     </g>
 
     <g transform="translate(0, 264)" class="fade-in" style="animation-delay: 2800ms">
-      <text class="tt"><tspan fill="#00dfdb">●</tspan><tspan fill="#f2f4f8"> </tspan><tspan fill="#00b4ff">●</tspan><tspan fill="#f2f4f8"> </tspan><tspan fill="#ff4297">●</tspan><tspan fill="#f2f4f8"> </tspan><tspan fill="#00c15a">●</tspan><tspan fill="#f2f4f8"> </tspan><tspan fill="#c693ff">●</tspan><tspan fill="#f2f4f8"> </tspan><tspan fill="#ff74b8">●</tspan><tspan fill="#f2f4f8"> </tspan><tspan fill="#f2f4f8">●</tspan><tspan fill="#f2f4f8"> </tspan><tspan fill="#8090b9">●</tspan></text>
+      <text class="tt">
+        <tspan fill="#00dfdb">●</tspan><tspan fill="#f2f4f8"> </tspan><tspan fill="#00b4ff">●</tspan><tspan fill="#f2f4f8"> </tspan><tspan fill="#ff4297">●</tspan><tspan fill="#f2f4f8"> </tspan><tspan fill="#00c15a">●</tspan><tspan fill="#f2f4f8"> </tspan><tspan fill="#c693ff">●</tspan><tspan fill="#f2f4f8"> </tspan><tspan fill="#ff74b8">●</tspan><tspan fill="#f2f4f8"> </tspan><tspan fill="#f2f4f8">●</tspan><tspan fill="#f2f4f8"> </tspan><tspan fill="#8090b9">●</tspan>
+      </text>
     </g>
 
     <g transform="translate(0, 288)">
@@ -152,7 +174,9 @@ building practical software, one iteration at a time</desc>
     </g>
 
     <g transform="translate(0, 312)" class="fade-in" style="animation-delay: 6510ms">
-      <text class="tt"><tspan fill="#ff74b8">software engineering</tspan><tspan fill="#f2f4f8"> / systems / security / applied AI</tspan></text>
+      <text class="tt">
+        <tspan fill="#ff74b8">software engineering</tspan><tspan fill="#f2f4f8"> / systems / security / applied AI</tspan>
+      </text>
     </g>
 
     <g transform="translate(0, 336)">
@@ -169,15 +193,21 @@ building practical software, one iteration at a time</desc>
     </g>
 
     <g transform="translate(0, 360)" class="fade-in" style="animation-delay: 10220ms">
-      <text class="tt" fill="#f2f4f8">golang-text-editor/</text>
+      <text class="tt" fill="#f2f4f8">
+        golang-text-editor/
+      </text>
     </g>
 
     <g transform="translate(0, 384)" class="fade-in" style="animation-delay: 10330ms">
-      <text class="tt" fill="#f2f4f8">smart-campus-energy-anomaly-dashboard/</text>
+      <text class="tt" fill="#f2f4f8">
+        smart-campus-energy-anomaly-dashboard/
+      </text>
     </g>
 
     <g transform="translate(0, 408)" class="fade-in" style="animation-delay: 10440ms">
-      <text class="tt" fill="#f2f4f8">trading-bot/</text>
+      <text class="tt" fill="#f2f4f8">
+        trading-bot/
+      </text>
     </g>
 
     <g transform="translate(0, 432)">
@@ -194,7 +224,9 @@ building practical software, one iteration at a time</desc>
     </g>
 
     <g transform="translate(0, 456)" class="fade-in" style="animation-delay: 14150ms">
-      <text class="tt" fill="#f2f4f8">building practical software, one iteration at a time</text>
+      <text class="tt" fill="#f2f4f8">
+        building practical software, one iteration at a time
+      </text>
     </g>
       </g>
     </g>

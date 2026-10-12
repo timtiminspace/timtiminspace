@@ -50,26 +50,66 @@ building practical software, one iteration at a time</desc>
     <g clip-path="url(#terminalViewport)">
       <g transform="translate(28, 14)">
         
-      <text class="tt" y="0" fill="#f2f4f8">timothee@dev:~$ neofetch --ascii_distro github</text>
-      <text class="tt" y="24"><tspan fill="#ff74b8">timothee@github</tspan></text>
-      <text class="tt" y="48"><tspan fill="#ff74b8">───────────────</tspan></text>
-      <text class="tt" y="72"><tspan fill="#ff74b8">OS</tspan><tspan fill="#f2f4f8">:        TerminalOS v1.0</tspan></text>
-      <text class="tt" y="96"><tspan fill="#ff74b8">Shell</tspan><tspan fill="#f2f4f8">:     bash 5.2</tspan></text>
-      <text class="tt" y="120"><tspan fill="#ff74b8">Uptime</tspan><tspan fill="#f2f4f8">:    a long time</tspan></text>
-      <text class="tt" y="144"><tspan fill="#ff74b8">Role</tspan><tspan fill="#f2f4f8">:      Computer Science / Software Engineering</tspan></text>
-      <text class="tt" y="168"><tspan fill="#ff74b8">Location</tspan><tspan fill="#f2f4f8">:  localhost</tspan></text>
-      <text class="tt" y="192"><tspan fill="#ff74b8">Languages</tspan><tspan fill="#f2f4f8">: Go, Python, Java, C++, TypeScript</tspan></text>
-      <text class="tt" y="216"><tspan fill="#ff74b8">Editor</tspan><tspan fill="#f2f4f8">:    neovim</tspan></text>
-      <text class="tt" y="240" fill="#f2f4f8"></text>
-      <text class="tt" y="264"><tspan fill="#00dfdb">●</tspan><tspan fill="#f2f4f8"> </tspan><tspan fill="#00b4ff">●</tspan><tspan fill="#f2f4f8"> </tspan><tspan fill="#ff4297">●</tspan><tspan fill="#f2f4f8"> </tspan><tspan fill="#00c15a">●</tspan><tspan fill="#f2f4f8"> </tspan><tspan fill="#c693ff">●</tspan><tspan fill="#f2f4f8"> </tspan><tspan fill="#ff74b8">●</tspan><tspan fill="#f2f4f8"> </tspan><tspan fill="#f2f4f8">●</tspan><tspan fill="#f2f4f8"> </tspan><tspan fill="#8090b9">●</tspan></text>
-      <text class="tt" y="288" fill="#f2f4f8">timothee@dev:~$ cat interests.txt</text>
-      <text class="tt" y="312"><tspan fill="#ff74b8">software engineering</tspan><tspan fill="#f2f4f8"> / systems / security / applied AI</tspan></text>
-      <text class="tt" y="336" fill="#f2f4f8">timothee@dev:~$ ls projects/</text>
-      <text class="tt" y="360" fill="#f2f4f8">golang-text-editor/</text>
-      <text class="tt" y="384" fill="#f2f4f8">smart-campus-energy-anomaly-dashboard/</text>
-      <text class="tt" y="408" fill="#f2f4f8">trading-bot/</text>
-      <text class="tt" y="432" fill="#f2f4f8">timothee@dev:~$ printf &apos;status: %s\n&apos; learning</text>
-      <text class="tt" y="456" fill="#f2f4f8">building practical software, one iteration at a time</text>
+      <text class="tt" y="0" fill="#f2f4f8">
+        timothee@dev:~$ neofetch --ascii_distro github
+      </text>
+      <text class="tt" y="24">
+        <tspan fill="#ff74b8">timothee@github</tspan>
+      </text>
+      <text class="tt" y="48">
+        <tspan fill="#ff74b8">───────────────</tspan>
+      </text>
+      <text class="tt" y="72">
+        <tspan fill="#ff74b8">OS</tspan><tspan fill="#f2f4f8">:        TerminalOS v1.0</tspan>
+      </text>
+      <text class="tt" y="96">
+        <tspan fill="#ff74b8">Shell</tspan><tspan fill="#f2f4f8">:     bash 5.2</tspan>
+      </text>
+      <text class="tt" y="120">
+        <tspan fill="#ff74b8">Uptime</tspan><tspan fill="#f2f4f8">:    a long time</tspan>
+      </text>
+      <text class="tt" y="144">
+        <tspan fill="#ff74b8">Role</tspan><tspan fill="#f2f4f8">:      Computer Science / Software Engineering</tspan>
+      </text>
+      <text class="tt" y="168">
+        <tspan fill="#ff74b8">Location</tspan><tspan fill="#f2f4f8">:  localhost</tspan>
+      </text>
+      <text class="tt" y="192">
+        <tspan fill="#ff74b8">Languages</tspan><tspan fill="#f2f4f8">: Go, Python, Java, C++, TypeScript</tspan>
+      </text>
+      <text class="tt" y="216">
+        <tspan fill="#ff74b8">Editor</tspan><tspan fill="#f2f4f8">:    neovim</tspan>
+      </text>
+      <text class="tt" y="240" fill="#f2f4f8">
+        
+      </text>
+      <text class="tt" y="264">
+        <tspan fill="#00dfdb">●</tspan><tspan fill="#f2f4f8"> </tspan><tspan fill="#00b4ff">●</tspan><tspan fill="#f2f4f8"> </tspan><tspan fill="#ff4297">●</tspan><tspan fill="#f2f4f8"> </tspan><tspan fill="#00c15a">●</tspan><tspan fill="#f2f4f8"> </tspan><tspan fill="#c693ff">●</tspan><tspan fill="#f2f4f8"> </tspan><tspan fill="#ff74b8">●</tspan><tspan fill="#f2f4f8"> </tspan><tspan fill="#f2f4f8">●</tspan><tspan fill="#f2f4f8"> </tspan><tspan fill="#8090b9">●</tspan>
+      </text>
+      <text class="tt" y="288" fill="#f2f4f8">
+        timothee@dev:~$ cat interests.txt
+      </text>
+      <text class="tt" y="312">
+        <tspan fill="#ff74b8">software engineering</tspan><tspan fill="#f2f4f8"> / systems / security / applied AI</tspan>
+      </text>
+      <text class="tt" y="336" fill="#f2f4f8">
+        timothee@dev:~$ ls projects/
+      </text>
+      <text class="tt" y="360" fill="#f2f4f8">
+        golang-text-editor/
+      </text>
+      <text class="tt" y="384" fill="#f2f4f8">
+        smart-campus-energy-anomaly-dashboard/
+      </text>
+      <text class="tt" y="408" fill="#f2f4f8">
+        trading-bot/
+      </text>
+      <text class="tt" y="432" fill="#f2f4f8">
+        timothee@dev:~$ printf &apos;status: %s\n&apos; learning
+      </text>
+      <text class="tt" y="456" fill="#f2f4f8">
+        building practical software, one iteration at a time
+      </text>
       </g>
     </g>
     
